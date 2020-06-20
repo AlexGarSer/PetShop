@@ -1,0 +1,77 @@
+footer {
+    background-color: #343a40 !important;
+    /*Posición del footer*/
+    position: relative;
+    /*Ubicación en la página HTML*/
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
+h5{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.lista{
+    list-style: none;
+}
+.boton{
+    margin: 5px;
+}
+.alinear{
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.borde{
+    border-width: 1px;
+    border-color: limegreen;
+    border-style: solid;
+}
+.imagenTarjeta{
+    height: 200px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenPanel{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablaProductos{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#tablaPS th{
+    font-size: 14px;
+    width: auto;
+    text-align: center;
+}
+#tablaPS td{
+    font-size: 13px;
+}
+.imagenProductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenTarjetaAnimales{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.imagenTarjetaAnimales img{
+    height: 150px;
+}
